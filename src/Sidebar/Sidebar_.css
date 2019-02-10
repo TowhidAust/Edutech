@@ -1,0 +1,9 @@
+.avatarHoverBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sidebar-menu-inner {
+    position: fixed !important;
+}

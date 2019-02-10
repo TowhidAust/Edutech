@@ -1,0 +1,151 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+/*scrollbar stuff*/
+
+.flexCentreColumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexCentreRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+::-webkit-scrollbar {
+  width: 0.2%;
+  height: 70%;
+  margin: 0 auto;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background-clip: padding-box;
+  -webkit-border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  height: 6px;
+  background-clip: padding-box;
+  -webkit-border-radius: 15px;
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+pl-0 {
+  padding-left: 0;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.display-none {
+  display: none;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.border-none {
+  border: none;
+}
+
+body {
+  padding-right: 0 !important
+}
+
+.notes-header {
+  padding: 0 15px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.red {
+  color: #EE4749;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.notes-env {
+  width: 98%;
+}
+
+input {
+  outline: none;
+}
+
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.42857143;
+    border: 1px solid #ededf0;
+    border-radius: 50em;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logOutLink, .notifIcon, .messageIcon{
+    transition: 300ms;
+}
+
+.logOutLink:hover, .notifIcon:hover, .messageIcon:hover {
+    transition: 300ms;
+    color: black !important;
+}

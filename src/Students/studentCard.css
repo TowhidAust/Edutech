@@ -1,0 +1,63 @@
+
+
+.studentCard{
+    margin: 0;
+    margin-bottom: 4%;
+    padding-right: 0;
+    padding-top:1%;
+    -webkit-box-shadow: 1px -1px 14px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px -1px 14px -1px rgba(0,0,0,0.15);
+    box-shadow: 1px -1px 14px -1px rgba(0,0,0,0.15);
+    transition: 300ms all ease;
+}
+
+.studentHeading{
+    margin-left: 2%; 
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imgCont{
+    display: inline-block;
+   
+}
+
+.imgItself{
+    display: inline-block;
+    border-radius: 5em;
+    border: 1px solid darkred;
+}
+
+.stdpendingBtn{
+    margin-top: -1%;
+    margin-left: 1%;
+}
+
+.invisible{
+    display: none;
+}
+
+.smallImg{
+    width: 4%;
+}
+
+.deleteStudentCard{
+    font-size: 1.1em; 
+    position: relative;  
+    cursor: pointer;
+}
+
+.mailStudentCard{
+    font-size: 0.7em;
+    position: relative;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+/* PENDING PANE */
+
+.mainPendingPane{
+    display: none;
+}

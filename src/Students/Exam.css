@@ -1,0 +1,30 @@
+
+
+.oneExamEntry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+.oneExamLineStudent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+    color: black;
+}
+
+.examHeadingBatch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.examtableHead{
+    color: #949494;
+    letter-spacing: 0.08em;
+    font-size: 0.94em;
+}

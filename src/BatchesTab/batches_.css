@@ -1,0 +1,486 @@
+.Batches_custom {
+    width: 97%;
+    padding-left: 1%;
+}
+
+.HeadlineCustom {
+    width: 100%;
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.batchCol{
+    margin-top:2%;
+}
+
+.Icon {
+    position: absolute;
+    right:2%;
+}
+
+.Icon span {
+    float: right;
+}
+
+.Icon span:hover {
+    cursor: pointer;
+}
+
+.HeadlineCustom h3 {
+    font-size: 2.5em;
+}
+
+.Timings {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: 8vh;
+    color: white;
+    font-size: 1em;
+    padding-left: 9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    z-index: 5;
+}
+
+
+.Timings i:hover {
+    cursor: pointer;
+}
+
+.batchDelete, .batchEdit{
+    display: block;
+    transition: 300ms;
+    font-size: 1.5em;
+}
+
+
+
+.batchcardTitle{
+    margin-top:-1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editBatchName{
+    transition: 300ms;
+    display: block;
+    opacity: 0;
+    font-size: 1.5em; 
+    cursor: pointer;
+}
+
+.editBatchName:hover, .editOneBatchTiming:hover, .deleteOneBatchTiming:hover, .batchDelete:hover{
+    transition: 300ms;
+    color: lightgray;
+    transform: scale(1.4,1.4);
+}
+
+.editOneBatchTiming{
+    transition: 300ms;
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.deleteOneBatchTiming{
+    transition: 300ms;
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.Button_Add_Timings{
+    transition: 300ms;
+    border-bottom: 1px solid #222222;
+}
+
+.Button_Add_Timings:hover{
+    transition: 300ms;
+    letter-spacing: 0.05em;
+}
+
+.infoContainer{
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    background: beige;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.batchCardInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.editCapacity, .editColor, .editTution{
+    transition: 300ms;
+    display: block;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.editCapacity:hover, .editColor:hover, .editTution:hover{
+    transition: 300ms;
+    transform: scale(1.4,1.4);
+}
+
+/* Global Scrollbar */
+
+/* width */
+
+.Timings_ForLoop_Custom::-webkit-scrollbar {
+    width: 2.2%;
+    border-radius: 2px;
+}
+
+/* Handle */
+
+.Timings_ForLoop_Custom::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+.Timings_ForLoop_Custom::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.Timings li {
+    font-size: 1em;
+}
+
+.Overlay {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    z-index: 6;
+    transition: 0.8s;
+}
+
+.Overlay2 {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 6;
+    transition: 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tile_Custom {
+    padding: 0 !important;
+    -webkit-box-shadow: 6px -1px 11px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 6px -1px 11px -1px rgba(0,0,0,0.15);
+    box-shadow: 6px -1px 11px -1px rgba(0,0,0,0.15);
+    transition: 300ms;
+}
+
+
+.Tile_Custom_add {
+    padding: 0 !important;
+}
+
+.Tile_Custom:hover .Overlay {
+    top: 80%;
+    left: 0%;
+    transition: 0.4s;
+}
+
+.Tile_Custom:hover .editCapacity {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.Tile_Custom:hover .editTution {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.Tile_Custom:hover .editColor {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.Tile_Custom:hover .editOneBatchTiming {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.Tile_Custom:hover .deleteOneBatchTiming {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.Tile_Custom:hover .editBatchName {
+    opacity: 1;
+    transition: 300ms;
+}
+
+.Overlay_Space {
+    padding-bottom: 12%;
+    width: 100%;
+}
+
+.Tile_Custom_AddNewBatch {
+    background-color: gainsboro;
+}
+
+.Tile_Custom_AddNewBatch:hover {
+    background-color: gray !important;
+}
+
+.Tile_Custom_AddNewBatch .HeadlineCustom {
+    visibility: hidden;
+}
+
+.Tile_Custom_AddNewBatch .Timings {
+    visibility: hidden;
+}
+
+
+.Tile_Custom_AddNewBatch:hover .Overlay2 {
+    top: 0 !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.Button_Add_Timings {
+    border-radius: 0 0 0 0;
+}
+
+.Tile_Custom_AddNewBatch .Icon_Plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8em;
+}
+
+/* modal styling */
+
+.AddTimings .Starting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddTimings .Ending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.AddTimings .Day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.Label_Div {
+    width: 30%;
+    float: right;
+    /* color: black; */
+}
+
+.AddTimings .Input_Div {
+    width: 40%;
+}
+
+.Select_Field {
+    width: 100%;
+    padding: 1.5%;
+    border-radius: 5px 15px 15px 5px;
+}
+
+/* add New batch Modal */
+
+.AddNewBatch label {
+    font-weight: 500;
+}
+
+.Label_Name,
+.Label_Color,
+.Seats_Label {
+    width: 25%;
+}
+
+.AddNewBatch .Name_Field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.AddNewBatch .Name_Input,
+.AddNewBatch .Color_Input,
+.AddNewBatch .Seats_Input {
+    width: 70%;
+}
+
+.AddNewBatch .Optional_Day,
+.AddNewBatch .Optional_Start,
+.AddNewBatch .Optional_End {
+    text-align: center;
+}
+
+.AddNewBatch .Name_Input input {
+    width: 100%;
+    padding: 1.5%;
+}
+
+.AddNewBatch .Color_Field {
+    display: flex;
+    margin-top: 1%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.AddNewBatch .Color_Input input {
+    width: 100%;
+    padding: 1.5%;
+}
+
+.AddNewBatch .Seats_Field {
+    display: flex;
+    margin-top: 1%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.AddNewBatch .Seats_Input input {
+    width: 100%;
+    padding: 1.5%;
+}
+
+.AddNewBatch input {
+    text-align: center;
+}
+
+.AddNewBatch .Add_Icon {
+    visibility: hidden;
+}
+
+.AddNewBatch .Add_Button i {
+    font-size: 18px;
+}
+
+.AddNewBatch .Add_Button i:hover {
+    cursor: pointer;
+}
+
+.addOptionalTimingButton{
+    transition: 300ms;
+    display: block;
+}
+
+.addOptionalTimingButton:hover{
+    transition: 300ms;
+    color: black;
+}
+
+.Optional_Headline {
+    margin-top: 5% !important;
+    margin-bottom: 4% !important;
+    width: 92%;
+    margin: auto;
+}
+
+.Container_Custom {
+    width: 92%;
+    margin: auto;
+}
+
+.Container_Input_Timings {
+    margin-bottom: 3%;
+}
+
+.Timings_Container {
+    width: 93%;
+    margin: auto;
+    height: 9vh;
+    overflow-x: hidden;
+}
+
+.optionalDeleteTimings{
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.optionalDeleteTimings:hover{
+    cursor: pointer;
+    transition: 300ms;
+    color: black;
+}
+
+.Timings_Container .col-md-12 {
+    margin-top: -3%;
+}
+
+.Timings_Holder {
+    display: flex;
+    margin-top: 2%;
+}
+
+.Delete_Icon {
+    margin-left: 7%;
+    padding: 0% 1%;
+}
+
+.Delete_Icon:hover {
+    cursor: pointer;
+}
+
+.Time {
+    margin-left: 5%;
+}
+
+/* for placeholders */
+
+.AddNewBatch ::placeholder {
+    color: gray;
+    opacity: 0.7;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* color picker z-index for modal */
+
+.colorpicker {
+    z-index: 10001 !important;
+}
+
+.Color_Field .input-group-addon {
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+}
+
+.Color_Field input {
+    padding-top: 3% !important;
+    padding-left: 3%;
+    padding-bottom: 3% !important;
+    font-size: 1em;
+}
+
+.optionalTimingsROW::-webkit-scrollbar{
+    width: 1.2%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.1);
+}

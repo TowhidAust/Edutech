@@ -1,0 +1,99 @@
+.lectureCustom {
+    width: 97%;
+    padding-left: 1%;
+}
+
+.lectureCustom .LinkDiv {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 3%;
+    border-radius: 3px;
+    -webkit-box-shadow: 2px -1px 9px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px -1px 9px -1px rgba(0,0,0,0.15);
+    box-shadow: 2px -1px 9px -1px rgba(0,0,0,0.15);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.lectureCustom .LinkDiv:hover {
+    transition: 300ms;
+    filter: brightness(1.25);
+}
+
+.Lectures_ResourceBox .panel-success {
+    border-color: #b4e8a8;
+}
+
+.Button_Edit,
+.Button_Delete {
+    display: block;
+    text-align: right;
+    margin-left: 2%;
+    color: white;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.Button_Edit:hover,
+.Button_Delete:hover {
+    transition: 300ms;
+}
+
+.lectureBtnCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lectureCustom .Margin {
+    margin: 1% 0;
+}
+
+.Lectures_AddNewButton {
+    border: 1px solid #BDEDBC;
+    background-color: #BDEDBC;
+    color: black;
+    font-size: 16px !important;
+
+}
+
+.Lectures_AddNewButton:hover {
+    background: none;
+}
+
+/* modal styling for add new resource */
+.ResourceFlexDiv1,
+.ResourceFlexDiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.ResourceFlexDiv1 input,
+.ResourceFlexDiv2 input {
+
+    border-radius: 5px 15px 15px 5px;
+    border: 1px solid gray;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.LabelResourceName,
+.LabelResourceURL {
+    width: 30%;
+}
+
+.ResourceURLInput,
+.ResourceInput {
+    width: 40%;
+}
+
+::placeholder {
+    color: gray;
+    font-size: 10px;
+}

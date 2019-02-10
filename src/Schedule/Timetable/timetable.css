@@ -1,0 +1,112 @@
+/* NEW TIMETABLE */
+
+.Schedule_ {
+	display: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+.Timetable {
+	padding-right: 1%;
+	padding-left: 0.5%;
+	/* overflow-x: auto; */
+	/* position: relative;
+	display: inline-block; */
+}
+
+.Timetable .leftcol-color {
+	background-color: transparent;
+	position: relative;
+}
+
+.Timetable .leftcol-color .spantag {
+	position: absolute;
+	bottom: 90%;
+	left: 15%;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.Timetable table {
+	border-collapse: collapse;
+	width: 100%;
+	overflow: hidden;
+}
+
+.Timetable th {
+	text-align: center;
+	padding: 2% 0;
+}
+
+.Timetable td {
+	text-align: center;
+	padding: 2.8% 0;
+}
+
+.Timetable .border {
+	border: 1px solid rgba(34, 34, 34, 0.1) !important;
+}
+
+.Timetable .th-td-width {
+	font-family: "Helvetica Neue", Helvetica, "Noto Sans", sans-serif;
+	width: 13.6%;
+	padding: 1%;
+	color: white;
+	background: #222222;
+}
+
+.Timetable .td-time-width {
+	width: 5%;
+}
+
+.Timetable th {
+	background: transparent;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.Timetable tr:nth-child(odd) {
+	background-color: none;
+}
+
+.scheduleText {
+	color: #949494;
+}
+
+.timetableONEBOX:hover .gridBoxEdit {
+	display: block;
+	transition: 300ms;
+}
+
+.gridBoxEdit {
+	transition: 300ms;
+	display: none;
+	position: absolute;
+	bottom: 2%;
+	right: 2%;
+	color: white;
+	cursor: pointer;
+}
+
+.gridBoxEdit:hover {
+	transition: 300ms;
+	transform: scale(1.5, 1.5);
+}
+
+/* Scroll for Heading */
+.Timetable .th-td-width2 {
+	font-family: "Helvetica Neue", Helvetica, "Noto Sans", sans-serif;
+	width: 13.6%;
+	padding: 1%;
+	color: white;
+	background: #222222;
+}
+
+.Timetable .border2 {
+	border: 1px solid rgba(34, 34, 34, 0.1) !important;
+}
+
+.Sticky_Table_Header {
+	visibility: hidden;
+	/* display: none; */
+} 
